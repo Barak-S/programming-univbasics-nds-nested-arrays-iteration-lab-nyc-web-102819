@@ -55,7 +55,7 @@ row_index = 0
 while row_index < src.count do
   element_index = 0
   inner_results = []
-  while element_index < src[row_index].count do
+  while element_index < src[row_index].length do
     
     if src[row_index][element_index]%2==0
       inner_results << src[row_index][element_index]
