@@ -62,7 +62,7 @@ while row_index < src.count do
     
     element_index += 1
   end
-    binding.pry
+    # binding.pry
     row_index +=1
   end
   outer_results << inner_results
