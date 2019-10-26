@@ -59,12 +59,14 @@ while row_index < src.count do
     
     if src[row_index][element_index]%2==0
       inner_results << src[row_index][element_index]
-    end
+    
     element_index += 1
+  end
     binding.pry
+    row_index +=1
   end
   outer_results << inner_results
-  row_index += 1
+  # row_index += 1
 end
     inner_results
     
